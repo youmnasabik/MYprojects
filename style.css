@@ -1,0 +1,100 @@
+@import
+url(https://fonts.googleapis.com/css?family=Varela+Round);
+
+/* Background */
+html, body { 
+background: #333;
+background-image: url("home.png");
+}
+
+/* Navbar */
+div.navbar-collapse ul.navbar-nav li {
+  font-family: "Lucida Sans Unicode";
+  font-size: 18px;
+}
+
+.navbar{
+  background-color: ##ffffff;
+}
+
+.navbar .navbar-brand {
+  padding: 4px 7px;
+  
+}
+
+/* Slider: centering */
+.carousel-inner .item a img {
+  margin: auto;
+}
+  
+/* Slider caption */
+.carousel-caption {
+  top: 530px;
+  font-family: "Lucida Sans Unicode","Lucinda Grande", sans-serif;
+}
+
+/* Slider Dots: shape */
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  margin-bottom: 10pc;
+}
+
+/* Slider Dots: alignment */
+.carousel-indicators {
+  text-align: center;
+  top:500px;
+}
+
+/* Card Title */
+.card-title{
+  border-radius:25px;
+  color: white;
+  font-family: "Lucida Sans Unicode","Lucinda Grande", sans-serif;
+  font-size: 20px;
+}
+
+/* Card Shape */
+.card{
+border-radius: 10px;
+font-family: "Lucida Sans Unicode","Lucinda Grande", sans-serif;
+}
+
+/* Card Body */
+.card-text{
+  border-radius: 10px;
+  font-family: "Lucida Sans Unicode","Lucinda Grande", sans-serif;
+  text-align: center;
+  }
+
+/* Card List */
+.list-group-item{
+  text-align: center;
+  margin-inline-start: 20pc;
+  margin-inline-end: 20pc;
+
+}
+
+/* Alert */
+.alert{
+  text-align: center;
+}
+
+/* Form */
+.form-group{
+  color: white;
+}
+
+.headings {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.icons {
+  color: white;
+  font-size: 30px; 
+}
+.buttons {
+  color: white;
+  background-color: #e81530;
+  width: 500px; 
+}
